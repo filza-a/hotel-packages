@@ -1,0 +1,80 @@
+.separator{
+    border-bottom: 2px solid rgb(197, 184, 184);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+h3{
+    padding: 10px;
+}
+
+
+.nav-link{
+    font-weight: bold;
+    color: black !important; 
+}
+
+.nav-link > p {
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(197, 184, 184);
+}
+
+.basic .card-title, .elevate .card-title, .innovate .card-title, .build .card-title{
+    /* border: 1px solid black; */
+    height: 40px;
+    text-align: center;
+    padding-top: 6px;
+}
+.card-text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 20px;
+   
+}
+
+.card-text span{
+    align-items: start;
+    font-size: 100px;
+}
+
+.card-text i{ 
+    margin-top: 50px;
+   
+}
+
+p.card-text+p{
+   text-align: center; 
+   margin-top: 0px;
+   padding-top: 0px;
+}
+
+.card-body > .price-per-member{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+a.btn{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+
+}
